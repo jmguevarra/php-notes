@@ -1,0 +1,19 @@
+/**
+ * All simple command, functions and codes are place here.
+ * 
+ */
+
+//To Echo in Laravel
+with( 'keyName', getText() );
+<div class="todo-lists">
+    {{ $keyName  }}  //this will echo the value of the variable
+</div>
+
+
+//For Loop
+<div class="todo-lists">
+    @foreach($todos as $todo) 
+        <div class="todo-list">{{ $todo->name }}</div>
+    @endforeach
+</div>
+
