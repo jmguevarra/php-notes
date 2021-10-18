@@ -17,3 +17,12 @@ with( 'keyName', getText() );
     @endforeach
 </div>
 
+
+//Form Object
+@csrf 
+- You need to add this template string to add a token that laravel reads in order to communicate to the server with security and session will not be expired(419 http reques)
+
+
+//Die var_dump()
+dd()
+-same in php var_dump but having die function afterwards.
